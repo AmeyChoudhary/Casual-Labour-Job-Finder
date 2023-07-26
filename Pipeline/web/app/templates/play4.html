@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Play Audio and Notify User</title>
+  </head>
+  <body>
+    <h1>Play Audio and Notify User</h1>
+    <audio controls>
+      <source src="{{ url_for('static', filename='Type.wav') }}" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+    <div>
+      <div>
+        <button id="job_response_1">YES</button>
+        <audio controls>
+          <source src="{{ url_for('static', filename='job_response_1.wav') }}" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div>
+        <button id="job_response_2">YES</button>
+        <audio controls>
+          <source src="{{ url_for('static', filename='job_response_2.wav') }}" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div>
+        <button id="job_response_3">YES</button>
+        <audio controls>
+          <source src="{{ url_for('static', filename='job_response_3.wav') }}" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <script src = "notify.js"></script>
+  </body>
+</html>
