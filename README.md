@@ -125,7 +125,7 @@ This setups the website for job poster.
 
 ### For the job seeker
 
-####In the folder "Pipeline/web/app/static", there are pre-recorded audio files from the video demo. They may be used as reference on how the prompts will be and how the input needs to given in the vernacular language. If you wish to use the job seeker web app, kindly delete all the files present in the folder and then proceed.
+#### In the folder "Pipeline/web/app/static", there are pre-recorded audio files from the video demo. They may be used as reference on how the prompts will be and how the input needs to given in the vernacular language. If you wish to use the job seeker web app, kindly delete all the files present in the folder and then proceed.
 
 1. Open a terminal in repository folder. Now go to:
 ```
