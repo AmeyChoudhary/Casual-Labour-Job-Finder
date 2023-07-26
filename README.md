@@ -35,11 +35,38 @@ their status for the job)
 6. contact for support or help
 7. read FAQs
 
+
+### For the job seeker
+
+After starting the application, the job seeker shall be asked for their job preferences, such as location, duration, type, wage,etc. They can reply about their preferences in vernacular language. Their query will be processed and they shall get a response for the same, back in their vernacular language. They can show interest in the job
+options, by pressing "YES".
+
+## Technology Stack used in project:
+
+### For Design:
+> Figma : The team uses Figma for designing and collaborating on designs. It is also used to visualise the website.
+
+### For Development:
+
+> Development Environment:
+
+Visual Studio Code : The team uses Microsoft’s Visual Studio Code as anIDE.
+
+Programming Languages / Frameworks / Dev Tools:
+1. React : For frontend development of website.
+2. Nodejs: For backend development of website
+3. HTML: For basic substitute UI app.
+4. Python : For pipelining
+5. minIO: For storage and extraction of url of audio files
+6. MongoDB: For the database of website
+7. GraphQL: Backend.
+
+
  
 
 ## To run the project:
 
-You must have MySQL and python3 in your local system for this to work.
+### For the job poster
 
 1. Clone the repository into a folder and open that folder into in Terminal.
 
