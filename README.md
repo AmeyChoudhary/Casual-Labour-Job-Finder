@@ -26,9 +26,9 @@ The "Casual Labour Job Finder" aims to bridge the gap between job seeker and job
 
 1. The job poster, creates their account on the job poster website. They post a new job by filling in the job details. The new job vacancy gets saved in the database.
 
-2. After this, a job seeker opens job seeker web app. Here, they are asked to record their preferences, which they can in their vernacular language. They can give in their audio inputs, which are recorded, scripted and translated into machine-understandable query.
+2. After this, a job seeker opens job seeker web app. Here, they are asked to record their preferences, which they can in their vernacular language. They can give in their audio inputs, which are recorded, scripted and translated into machine-understandable query. All of this is done by pipeline.
 
-3. This query is run through the database to find jobs. If there are jobs matching the query, they are returned back to the job seeker web app. The job vacancies are then read back to the job seeker in their vernacular language. The job seeker, if interested in any job, can press "YES". This records their response to that particular job and the job poster of that particular job is notified about the same
+3. This query is run through the database to find jobs. If there are jobs matching the query, they are returned back to the job seeker web app. The job vacancies are then read back to the job seeker in their vernacular language (by pipeline). The job seeker, if interested in any job, can press "YES". This records their response to that particular job and the job poster of that particular job is notified about the same
 
 4. The job poster, gets the response of the job seeker for that job. They get the contact details of the job seeker. The job poster can manage the response by contacting the job seeker and changing their status.
 
@@ -71,7 +71,20 @@ options, by pressing "YES".
 
 ### For Design:
 > Figma : The team uses Figma for designing and collaborating on designs. It is also used to visualise the website.
- 
+
+## About the repository
+
+1. The folders "frontend" and "backend" contain the code for the job poster website.
+
+2. The folder "Pipeline" contain the code for the job seeker website and pipeline.
+
+3. The folder "Documentation" contains the documentation for the project. It consists of 2 sub-folders, "Minutes of Meeting", which details about the meetings during development and "Project Document", which consists of details related to Project, like Project Design (overviews, modules,API descriptions, relationship diagrams and models, sequence diagrams, desing snapshots), Project Plan (milestones and schedule), SRS (user profiles and modules) .etc.
+
+4. The text file, Links, contains links to 
+
+> demo video, which demostrates the various Functionalities of the project. In the video, we show how a dummy job poster can register, login and post a new vacancy through the website. Then a dummy job seeker can use the web app to record their preferences through vernacular audio and get back job vacancies (including the one made during the demo video as it suits the preferences). The job seeker shows interest in the vacancy by pressing "YES" and the response gets recorded and the job poster gets notified and sees the contact details of the job seeker.
+
+> a presentation, which details on the motivation, objectives, milestones, Technology stack used, user research, challenges, concetps , schemas, and modules used in project. It also contains snapshots of UI screens of the website and web app.
 
 ## To run the project:
 
