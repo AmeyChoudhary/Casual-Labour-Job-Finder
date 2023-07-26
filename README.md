@@ -1,6 +1,7 @@
 # Casual Labour Job Finder
 
 ## Team Members: 
+
     1. Aditya Acharya
     2. Amey Choudhary
     3. Sai Nikhita Obbineni
@@ -14,11 +15,22 @@ Most online job portals cater to white collar jobs. The few that cater to blue c
 
 For employers looking to hire local semi-skilled blue collar workers, it is extremely tedious and difficult for them to get interested blue collar workers.
 
-The "Casual Labour Job Finder" aims to address all of these problems by offering a
-toll-free number where job seekers can call and enquire about job vacancies near
-them, in their vernacular language, as well as employers can use a website to post
-job openings and get responses for the same.
 
+The "Casual Labour Job Finder" aims to bridge the gap between job seeker and job finder and addresses all of these problems by:
+
+1. offering a **web application** where job seekers can open and enquire about job vacancies, with their required preferences, **giving audio inputs in their own vernacular language**.
+
+2. offering a **website** , where job posters can post job vacancies and manage the responses they receive.
+
+## Flow of the application:
+
+1. The job poster, creates their account on the job poster website. They post a new job by filling in the job details. The new job vacancy gets saved in the database.
+
+2. After this, a job seeker opens job seeker web app. Here, they are asked to record their preferences, which they can in their vernacular language. They can give in their audio inputs, which are recorded, scripted and translated into machine-understandable query.
+
+3. This query is run through the database to find jobs. If there are jobs matching the query, they are returned back to the job seeker web app. The job vacancies are then read back to the job seeker in their vernacular language. The job seeker, if interested in any job, can press "YES". This records their response to that particular job and the job poster of that particular job is notified about the same
+
+4. The job poster, gets the response of the job seeker for that job. They get the contact details of the job seeker. The job poster can manage the response by contacting the job seeker and changing their status.
 
 ## Functionalities available in our application
 
@@ -65,41 +77,3 @@ options, by pressing "YES".
 
 ### For the job poster
 
-1. Clone the repository into a folder and open that folder into in Terminal.
-
-2. Login in to your MySQL using 
-```
- sudo mysql -u <yourusername>
-```
- and then enter your password.
-
-3. In MySQL, create a database, "Proj_4".
-```
-CREATE DATABASE Proj_4;
-```
-
-4. (Optional) It is advised to create a new user and grant them all privileges on Proj_4. This step is optional.
-```
-CREATE USER '<newusername>'@'<hostname>' IDENTIFIED BY '<password>';
-```
-Grant the new user all privileges on Proj_4.
-```
-GRANT ALL PRIVILEGES ON *Proj_4* TO '<newusername>'@'<hostname>' WITH GRANT OPTION;
-```
-If facing problem while making a new user, follow this tutorial:
-https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
-
-5. Exit MySQL and enter the following in your terminal (Note that terminal must be open in the Project folder)
-
-```
-mysql -u <yourusername> -p <yourpassword> Proj_4 < SQLdump.sql 
-```
-This command creates tables and dumps dummy data in your database. Your username and password can be either your native root user or the new user created in Step 4.
-
-6. Now start the application by
-```
-python3 Functionality.py
-```
-and now enter your credentials (either your native user or new user created).
-
-7. You may select options to see various functionalities.
