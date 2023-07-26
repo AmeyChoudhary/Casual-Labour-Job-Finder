@@ -43,9 +43,6 @@ options, by pressing "YES".
 
 ## Technology Stack used in project:
 
-### For Design:
-> Figma : The team uses Figma for designing and collaborating on designs. It is also used to visualise the website.
-
 ### For Development:
 
 #### Development Environment:
@@ -60,7 +57,8 @@ options, by pressing "YES".
 > 6. MongoDB: For the database of website
 > 7. GraphQL: Backend.
 
-
+### For Design:
+> Figma : The team uses Figma for designing and collaborating on designs. It is also used to visualise the website.
  
 
 ## To run the project:
