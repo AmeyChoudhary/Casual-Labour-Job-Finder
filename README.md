@@ -82,7 +82,8 @@ options, by pressing "YES".
 
 4. The pdf file, Links, contains links to 
 
-> demo video, which demostrates the various Functionalities of the project. In the video, we show how a dummy job poster can register, login and post a new vacancy through the website. Then a dummy job seeker can use the web app to record their preferences through vernacular audio and get back job vacancies (including the one made during the demo video as it suits the preferences). The job seeker shows interest in the vacancy by pressing "YES" and the response gets recorded and the job poster gets notified and sees the contact details of the job seeker. **Use Headphones as audio outputs recorded in screen recording is faint and might not be heard.**
+> demo video, which demostrates the various Functionalities of the project. In the video, we show how a dummy job poster can register, login and post a new vacancy through the website. Then a dummy job seeker can use the web app to record their preferences through vernacular audio and get back job vacancies (including the one made during the demo video as it suits the preferences). The job seeker shows interest in the vacancy by pressing "YES" and the response gets recorded and the job poster gets notified and sees the contact details of the job seeker.
+> #### Use Headphones as audio outputs recorded in screen recording is faint and might not be heard.
 
 > a presentation, which details on the motivation, objectives, milestones, Technology stack used, user research, challenges, concetps , schemas, and modules used in project. It also contains snapshots of UI screens of the website and web app.
 
@@ -124,7 +125,7 @@ This setups the website for job poster.
 
 ### For the job seeker
 
-**In the folder "Pipeline/web/app/static", there are pre-recorded audio files from the video demo. They may be used as reference on how the prompts will be and how the input needs to given in the vernacular language. If you wish to use the job seeker web app, kindly delete all the files present in the folder and then proceed**
+####In the folder "Pipeline/web/app/static", there are pre-recorded audio files from the video demo. They may be used as reference on how the prompts will be and how the input needs to given in the vernacular language. If you wish to use the job seeker web app, kindly delete all the files present in the folder and then proceed.
 
 1. Open a terminal in repository folder. Now go to:
 ```
