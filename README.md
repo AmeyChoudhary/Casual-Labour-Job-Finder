@@ -17,49 +17,25 @@ For employers looking to hire local semi-skilled blue collar workers, it is extr
 The "Casual Labour Job Finder" aims to address all of these problems by offering a
 toll-free number where job seekers can call and enquire about job vacancies near
 them, in their vernacular language, as well as employers can use a website to post
-job openings and get responses for the same
+job openings and get responses for the same.
 
 
-## List of commands that can be run using our code and database
- 
-1. ### Insert a New Patient
-To insert the details of a patient who is being admitted to the hospital.
- 
-2. ### Deleting a Former Doctor 
-To delete the details of a doctor who is leaving the hospital.
- 
-3. ### Updating the Room Allotment to Department
-To modify the room's department allottment.
- 
-4. ### Select Patients Having a Particular Disease
-To know the names of Patients suffering from a Particular Disease.
- 
-5. ### Select Doctors in a certain Department
-To know which Doctors work in a particular department.
+## Functionalities available in our application
 
-6. ### Patients Older than a Certian Age
-To know names of patients older than a certain age.
+### For the job poster
+
+The website is for blue collar job posters. After registering on the website, the user
+will be able to:
+1. post new jobs
+2. manage previously posted jobs (edit and delete them)
+3. view and manage responses (view information of job seekers and change
+their status for the job)
+4. edit and delete their profile
+5. provide feedback
+6. contact for support or help
+7. read FAQs
+
  
-7. ### Room with capacity
-To know the room number of rooms having atleast the desired capacity.
- 
-8. ### Avergae Experience Level of Doctors in Department
-This gives the user the average work experience of doctors belonging to a particular department.
- 
-9. ### Room Search
-This allows the user to search for which Patient is in which Room either by Room Number or By Using PatientID. 
- 
-10. ### Room Availability
-This displays all the rooms which are not occupied by patients.
- 
-11. ### Success Rate of Any Operation
-This allows the user to know the success rate of a particular operation from statistics of past records.
- 
-12. ### Most Frequent Disease in Age Group
-This gives the user an analysis of the most frequent disease in age groups.
- 
-13. ### Logout
-This logs the user out of the database.
 
 ## To run the project:
 
