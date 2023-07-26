@@ -12,7 +12,12 @@ Most online job portals cater to white collar jobs. The few that cater to blue c
 2. available only in major languages like English. 
 
 
-For employers looking to hire local semi-skilled blue collar workers, it is extremely tedious and difficult for them to get interested blue collar workers
+For employers looking to hire local semi-skilled blue collar workers, it is extremely tedious and difficult for them to get interested blue collar workers.
+
+The "Casual Labour Job Finder" aims to address all of these problems by offering a
+toll-free number where job seekers can call and enquire about job vacancies near
+them, in their vernacular language, as well as employers can use a website to post
+job openings and get responses for the same
 
 
 ## List of commands that can be run using our code and database
