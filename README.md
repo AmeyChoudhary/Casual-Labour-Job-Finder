@@ -48,18 +48,17 @@ options, by pressing "YES".
 
 ### For Development:
 
-> Development Environment:
+#### Development Environment:
+> Visual Studio Code : The team uses Microsoft’s Visual Studio Code as anIDE.
 
-Visual Studio Code : The team uses Microsoft’s Visual Studio Code as anIDE.
-
-Programming Languages / Frameworks / Dev Tools:
-1. React : For frontend development of website.
-2. Nodejs: For backend development of website
-3. HTML: For basic substitute UI app.
-4. Python : For pipelining
-5. minIO: For storage and extraction of url of audio files
-6. MongoDB: For the database of website
-7. GraphQL: Backend.
+#### Programming Languages / Frameworks / Dev Tools:
+> 1. React : For frontend development of website.
+> 2. Nodejs: For backend development of website
+> 3. HTML: For basic substitute UI app.
+> 4. Python : For pipelining
+> 5. minIO: For storage and extraction of url of audio files
+> 6. MongoDB: For the database of website
+> 7. GraphQL: Backend.
 
 
  
